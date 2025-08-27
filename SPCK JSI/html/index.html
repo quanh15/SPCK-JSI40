@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop Gậy Bi-a</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <ul class="nav-menu">
+      <li><a href="./index.html"><span class="icon"><img src="../img/Logo_shop.png"></span></a></li>
+      <li><a href="./billiard_sticks.html">GẬY BI A</a></li>
+      <li><a href="./billiards.html">VỀ BILLIARD</a></li>
+      <li><a href="./phukien.html">PHỤ KIỆN CHÍNH HÃNG</a></li>
+      <li><a href="./dich vu.html">DỊCH VỤ</a></li>
+      <li><a href="./lienhe.html">LIÊN HỆ</a></li>
+      <li class="cart-icon">
+
+        <a href="#" id="cart-toggle">🛒 (<span id="cart-count">0</span>)</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="slider">
+  <div class="slides">
+    <img src="../img/gorst.png" alt="Hình 1">
+    <img src="../img/filler.png" alt="Hình 2">
+    <img src="../img/kaci.png" alt="Hình 3">
+    <img src="../img/sanchez.png" alt="Hình 4">
+    <img src="../img/yappbeo.png" alt="hình 5">
+  </div>
+  <button class="btn prev">&#10094;</button>
+  <button class="btn next">&#10095;</button>
+</div>
+
+ <!-- Nút bật/tắt chatbot -->
+    <div id="chatbot-toggle">💬</div>
+
+    <!-- Hộp chatbot -->
+    <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-header">
+            <h3>🤖 Chatbot Billiard</h3>
+        </div>
+        <div class="chatbot-body" id="chatbot-body">
+            <div class="message bot-message">
+                Chào bạn! Mình là Chatbot Billiard. Hãy hỏi mình về Billiard nước nhà và quốc tế nhé!
+            </div>
+        </div>
+        <div class="chatbot-footer">
+            <input type="text" id="user-input" placeholder="Nhập câu hỏi của bạn...">
+            <button id="send-btn">Gửi</button>
+        </div>
+    </div>
+
+    <script type="module" src="../js/script.js"></script>
+
+  <script src="../js/new.js"></script>
+</body>
+
+</html>
